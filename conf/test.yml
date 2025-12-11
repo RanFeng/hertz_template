@@ -1,0 +1,13 @@
+# server
+server_port: ":1234"
+
+# mysql
+mysql_addr: "127.0.0.1:3306"
+mysql_user: ""
+mysql_pass: ""
+mysql_db_name: ""
+
+# redis
+redis_addr: "127.0.0.1:6379"
+redis_pass: ""
+redis_db: 0

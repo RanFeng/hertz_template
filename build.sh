@@ -1,0 +1,7 @@
+#!/bin/bash
+RUN_NAME=hertz_demo
+mkdir -p output/bin output/conf
+cp script/* output/
+cp conf/* output/conf/
+chmod +x output/bootstrap.sh
+CGO_ENABLED=0  GOOS=linux  GOARCH=amd64 go build -o output/bin/${RUN_NAME}
